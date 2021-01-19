@@ -8,7 +8,10 @@ public class PersonExample {
 		System.out.println(p1.nation);
 		System.out.println(p1.ssn);
 		System.out.println(p1.name);
-
+		
+		//p1.nation-"usa";
+		//p1.ssn="13241-432432";  final 필드 수정 불가
+		p1.name="조운호";
 	}
 
 }
