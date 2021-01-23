@@ -7,8 +7,10 @@ public class BoundedTypeParameterExample {
 		int result=number.compare(4.5,2);
 		System.out.println(result);
 		
-		int result=number.compare(10,20);
+		result=number.compare(10,20);
 		System.out.println(result);
+		
+		//String s=Util.compaer("a","b"); X
 	}
 
 }
